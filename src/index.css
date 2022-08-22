@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+HEADER {
+  background-color: #F34F50;
+  height: 40px;
+  color: #FFF;
+  font-size: 16pt;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;  
+}
+
+HEADER > DIV {
+  margin: 5px;
+}
+
+HEADER > .icon {
+  width: 30px;
+  height: 30px;
+  background-image: url(globe.png);  
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+SECTION {
+  display: flex;
+  padding: 10px;
+  border-bottom: 1px solid #CCC;
+}
+
+SECTION > DIV {
+  margin: 10px;
+}
+
+SECTION > DIV.image {
+  width: 170px;
+  height: 300px;
+  background-color: #CCC;
+  display: inline-block;
+  border-radius: 10px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+SECTION > DIV.data {
+  width: calc(100% - 170px);
+}
+
+.place {
+  height: 20px;
+  background-position: left center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding-left: 24px;
+  background-image: url(pin.png);
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 2px;
+  margin-right: 12px;
+}
+
+.data > A {
+  color: #888
+}
+
+MAIN {
+  padding: 10px;
+}
